@@ -1,5 +1,5 @@
 # fetch vs Axios
-**fetch** y **Axios** son las dos herramientas más populares para hacer peticiones HTTP.  
+**fetch** y **Axios** son las dos herramientas más populares para hacer **peticiones HTTP**.  
 Por cualquiera de los dos métodos las peticiones se ejecutan a través de **promesas** porque son **procesos asíncronos**.
 
 ## Promesas
