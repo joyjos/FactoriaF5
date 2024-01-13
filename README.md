@@ -19,7 +19,11 @@ fetch('https://pokeapi.co/api/v2/pokemon')
    .catch(err => console.log(err));
 ```
 ## Axios
-Es una librería de JavaScript para realizar peticiones http, tenemos que instalarla en nuestro proyecto.
+Es una librería de JavaScript para realizar peticiones http, tenemos que instalarla en nuestro proyecto:
+
+`npm install axios`  
+
+
 Si vamos a hacer una petición GET, sólo debemos llamar al método desde axios agregándole _.get(url)_ :
 
 ```js
@@ -27,10 +31,16 @@ axios.get(url)
    .then(response => console.log(response.data))
    .catch(err => console.log(err));
 ```
+
+La libreria **Axios** directamente nos provee de la respuesta, y tan solo tenemos que indicarle que queremos el data de la respuesta y ya tenemos los datos que pedimos.
+
 ## ¿fetch o Axios?
 Si lo que queremos es crear un proyecto con 0 dependencias **fetch** es la herramienta más deseable porque no hay que instalar ninguna dependencia. Al crear un proyecto con muchas dependencias estamos dependiendo de estas librerías y esto puede hacer que partes de nuestro código dejen de funcionar porque dejen de actualizarse esas librerías.
 
-Pero **Axios** es más potente que fetch porque es una librería y no un sólo método. Por ejemplo, nos brinda el uso de interceptores en las peticiones http.
+Pero **Axios** es más potente que fetch porque es una librería y no un sólo método. Por ejemplo, nos brinda el uso de interceptores en las peticiones http.  
+Otra ventaja es que no tenemos que convertir el cuerpo de la solicitud en una cadena JSON. Hace más con menos código, sólo necesita una devolución de llamada .then() para acceder a los datos JSON solicitados.  
+Además tiene un mejor manejo de errores, arroja errores por nosotros a diferencia de fetch donde los tenemos que arrojar nosotros.  
+Y por último, se puede utilizar tanto en el servidor como en el cliente.
 
 Es mejor usar **Axios** en un proyecto grande para ejecutar acciones recurrentes y usar **fetch** en un proyecto pequeño para acciones puntuales y concretas.
 
@@ -44,3 +54,6 @@ https://somospnt.com/blog/217-agustin-luna
 
 Promesas en frontend JavaScript  
 https://keepcoding.io/blog/promesas-en-frontend-javascript/
+
+Cómo usar Axios con React: La guía definitiva (2021)  
+https://www.freecodecamp.org/espanol/news/como-usar-axios-con-react/
