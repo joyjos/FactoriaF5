@@ -6,5 +6,5 @@ Estos son los apuntes del **Bootcamp Desarrollo Web FullStack** de **Factoría F
 Cómo hacer peticiones http a una API con estas dos herramientas.  
 Ventajas y desventajas.
 
-### [02 Optimización de imágenes para la Web (💊 Píldora pedagógica)](apuntes/02%20Optimización%20de%20imágenes%20para%20la%20Web)
+### [02 Optimización de imágenes para la Web (💊 Píldora pedagógica)](apuntes/02.Optimización_de_imágenes_para_la_Web)
 Qué es optimizar, por qué es importante y cómo optimizarlas.
