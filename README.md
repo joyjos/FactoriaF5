@@ -2,7 +2,7 @@
 
 Estos son los apuntes del **Bootcamp Desarrollo Web FullStack** de **Factoría F5**
 
-### 01 fetch vs Axios (💊 Píldora pedagógica)
+### [01 fetch vs Axios (💊 Píldora pedagógica)](apuntes/01.fetch_vs_axios)
 Cómo hacer peticiones http a una API con estas dos herramientas.  
 Ventajas y desventajas.
 
