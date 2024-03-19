@@ -10,3 +10,4 @@ Ventajas y desventajas.
 Qué es optimizar, por qué es importante y cómo optimizarlas.
 
 ### [03 Proyecto Full Stack](apuntes/03.Proyecto_FrontEnd_BackEnd)
+Cómo inicializar un proyecto Full Stack
