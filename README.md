@@ -9,4 +9,4 @@ Ventajas y desventajas.
 ### [02 Optimización de imágenes para la Web (💊 Píldora pedagógica)](apuntes/02.Optimización_de_imágenes_para_la_Web)
 Qué es optimizar, por qué es importante y cómo optimizarlas.
 
-### [03 Proyecto Full Stack](apuntes/03.Proyecto FrontEnd BackEnd)
+### [03 Proyecto Full Stack](apuntes/03.Proyecto_FrontEnd_BackEnd)
